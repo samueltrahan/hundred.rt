@@ -1,0 +1,33 @@
+.nav-bar {
+  height: 100px;
+  background-color: blanchedalmond;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-menu {
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.menu {
+  color: black;
+}
+
+.nav-logo {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px 6px black;
+  margin-bottom: 10px;
+}
+
+
