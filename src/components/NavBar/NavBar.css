@@ -5,17 +5,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.nav-menu {
-  grid-column: 1/2;
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-}
-
-.menu {
-  color: black;
-}
-
 .nav-logo {
   grid-column: 2/3;
   display: flex;
